@@ -1,4 +1,5 @@
 <script>
+    import Button from "../../components/Button.svelte";
 </script>
 
 <main class="impressum-page">
@@ -9,9 +10,10 @@
             Marcel Kazemi - Software Engineer<br> 
             40476 Düsseldorf<br>
         </p>
-        <p><strong>Kontakt:</strong><br>
-            E-Mail: <a href='mailto:marcelkazemi21@gmail.com'>marcelkazemi21@gmail.com</a>
-        </p>
+
+        <Button href="https://www.coursera.org/resources/html-cheat-sheet">
+            Test
+        </Button>
 
         <p><strong>Haftungsausschluss:</strong><br><br>
 
@@ -28,7 +30,6 @@
             Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf 
             mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist 
             jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-
         </p>
     </section>
 </main>
@@ -44,6 +45,10 @@
         background-color: var(--light-background);
         padding: 2rem;
         border-radius: 0.5rem;
+    }
+
+    .section h1 {
+        text-align: center;
     }
 
     a {
