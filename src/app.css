@@ -1,0 +1,49 @@
+/* Root Variables */
+:root {
+  /* Colors */
+  --background: hsl(240, 11%, 7%); /* Dark Page Background */
+  --light-background: hsl(240, 7%, 12%);
+  --light: hsl(0, 0%, 98%); /* White */
+  --middle: hsl(240, 1%, 68%); /* Grey Text */
+  --dark: hsl(0, 0%, 0%); /* Black Text */
+  --foreground: hsl(0, 0%, 98%); /* Grey Cards */
+  --accent: hsl(278, 62%, 58%);
+  --border: rgba(128, 128, 128, 0.25);
+  --radius: 0.5rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--foreground);
+  background-color: var(--background);
+  line-height: 1.75rem;
+}
+
+a {
+  color: var(--middle);
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  color: var(--light);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  user-select: none;
+  pointer-events: none; 
+}
