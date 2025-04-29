@@ -30,7 +30,6 @@
 
     main {
         max-width: 90rem;
-        margin: auto;
         align-content: center;
         padding: 1rem;
         padding-top: 5.5rem;
