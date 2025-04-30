@@ -6,8 +6,10 @@
     import RecentWork from '../components/Figma/RecentWork.svelte';
 </script>
 
+<main>
     <NavBar />
     <HeroSection />
     <AboutMe />
     <RecentWork />
     <Contact />
+</main>
