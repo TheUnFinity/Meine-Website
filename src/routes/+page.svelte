@@ -1,5 +1,5 @@
 <script>
-    import NavBar from '$components/Figma/NavBar.svelte';
+    import Navbar from '$components/Figma/Navbar.svelte';
     import HeroSection from '$components/Figma/HeroSection.svelte';
     import AboutMe from '$components/Figma/AboutMe.svelte';
     import RecentWork from '$components/Figma/RecentWork.svelte';
@@ -7,7 +7,7 @@
 </script>
 
 <main>
-    <NavBar />
+    <Navbar />
     <HeroSection />
     <AboutMe />
     <RecentWork />
