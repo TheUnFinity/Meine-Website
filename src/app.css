@@ -1,7 +1,64 @@
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BDOGrotesk';
+  src: url('./fonts/BDOGrotesk-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Root Variables */
 :root {
   /* Colors */
-  --background: hsl(240, 11%, 7%); /* Dark Page Background */
+  --background: #F2F2F1; /* Dark Page Background */
   --light-background: hsl(240, 7%, 12%);
   --light: hsl(0, 0%, 98%); /* White */
   --middle: hsl(240, 1%, 68%); /* Grey Text */
@@ -10,10 +67,11 @@
   --accent: hsl(278, 62%, 58%);
   --border: rgba(128, 128, 128, 0.25);
   --radius: 0.5rem;
+  --font-body: 'BDOGrotesk', sans-serif;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
   color: var(--foreground);
   background-color: var(--background);
   line-height: 1.75rem;

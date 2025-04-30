@@ -12,13 +12,10 @@
 
 <div class="app">
 
-    <Header navItems={navigation} />
-
     <main>
         {@render children()}
     </main>
 
-    <Footer />
 </div>
 
 <style>
@@ -26,13 +23,7 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-    }
-
-    main {
-        max-width: 90rem;
         align-content: center;
-        padding: 1rem;
-        padding-top: 5.5rem;
     }
 
 </style>
