@@ -1,10 +1,7 @@
 <script>
     import '../app.css';
 
-    import { navigation } from '$lib/data.js';
-    
     let { children } = $props();
-
 
 </script>
 

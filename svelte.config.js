@@ -4,6 +4,9 @@ import adapter from "@sveltejs/adapter-static";
 const config = {
 	kit: {
 		adapter: adapter(),
+		paths: {
+			base: "/theunfinity.github.io"  //GitHub Pages base path
+		  },
 		alias: {
 			"@/*": "./path/to/lib/*",
 		  },
