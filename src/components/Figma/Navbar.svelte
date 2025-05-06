@@ -1,12 +1,12 @@
 <div class="navi-margin">
     <div class="navigationsleiste">
         <div class="logo">
-            <div class="logo-vector"></div>
+            <img class="logo-vector" src="./AlexLogo.svg" alt="Alex Logo"/>
         </div>
         <div class="unterpunkte">
-            <div class="work"><span class="work_span">Work</span></div>
-            <div class="about-me"><span class="aboutme_span">About Me</span></div>
-            <div class="kontakt"><span class="kontakt_span">Kontakt</span></div>
+            <a href="#recent-work" class="work"><span class="work_span">Work</span></a>
+            <a href="#about-me" class="about-me"><span class="aboutme_span">About Me</span></a>
+            <a href="#kontakt" class="kontakt"><span class="kontakt_span">Kontakt</span></a>
         </div>
     </div>
 </div>
@@ -18,7 +18,6 @@
     left: 0px;
     top: 0px;
     position: absolute;
-    background: #1D1D1D;
 }
 
 .work_span {
@@ -27,7 +26,7 @@
    font-family: var(--font-body);
     font-weight: 300;
     line-height: 18px;
-    word-wrap: break-word;
+
 }
 
 .work {
@@ -40,7 +39,7 @@
    font-family: var(--font-body);
     font-weight: 300;
     line-height: 18px;
-    word-wrap: break-word;
+
 }
 
 .about-me {
@@ -53,7 +52,7 @@
    font-family: var(--font-body);
     font-weight: 300;
     line-height: 18px;
-    word-wrap: break-word;
+
 }
 
 .kontakt {

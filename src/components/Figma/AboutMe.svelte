@@ -1,49 +1,53 @@
-<div class="about-me-margin">
-    <div class="about-me-all">
-        <div class="bild-von-mir"></div>
-        <div class="content">
-            <div class="aboutme">
-                <div class="about-me"><span class="aboutme_span">About Me</span></div>
-                <div class="ich-text"><span class="ichtext_span">Ich heiße Alex und studiere derzeit im fünften Semester Design an der Münster School of Design. Im Laufe meines Studiums hatte ich die Möglichkeit, verschiedene kreative Bereiche zu erkunden und Einblicke in ganz unterschiedliche Aufgabenfelder zu gewinnen. Die Projekte, die ich in diesem Portfolio präsentiere, spiegeln die Themen wider, für die ich mich aktuell besonders begeistere. Gleichzeitig bin ich offen dafür, neue Themenfelder zu entdecken, mehr über alltägliche Herausforderungen zu lernen und mich allgemein als Designer weiterzuentwickeln.</span></div>
-            </div>
-            <div class="skills">
-                <div class="skills_01"><span class="skills_01_span">Skills</span></div>
-                <div class="ensable-of-skills">
-                    <div class="figma">
-                        <div class="frame-23"></div>
-                        <div class="figma_01"><span class="figma_01_span">Figma</span></div>
-                    </div>
-                    <div class="blender">
-                        <div class="frame-22"></div>
-                        <div class="blender_01"><span class="blender_01_span">Blender</span></div>
-                    </div>
-                    <div class="photoshop">
-                        <div class="frame-25"></div>
-                        <div class="photoshop_01"><span class="photoshop_01_span">Photoshop</span></div>
-                    </div>
-                    <div class="illustrator">
-                        <div class="frame-20"></div>
-                        <div class="illustrator_01"><span class="illustrator_01_span">Illustrator</span></div>
-                    </div>
-                    <div class="after-effects">
-                        <div class="frame-19"></div>
-                        <div class="after-effects_01"><span class="aftereffects_01_span">After Effects</span></div>
-                    </div>
-                    <div class="indesign_01">
-                        <div class="frame-21"></div>
-                        <div class="indesign"><span class="indesign_span">Indesign</span></div>
+<section id="about-me">
+    <div class="about-me-margin">
+        <div class="about-me-all">
+            <img class="bild-von-mir" src="./BildVonMir.avif" alt="Alex" />
+            <div class="content">
+                <div class="aboutme">
+                    <div class="about-me"><span class="aboutme_span">About Me</span></div>
+                    <div class="ich-text"><span class="ichtext_span">Ich heiße Alex und studiere derzeit im fünften Semester Design an der Münster School of Design. Im Laufe meines Studiums hatte ich die Möglichkeit, verschiedene kreative Bereiche zu erkunden und Einblicke in ganz unterschiedliche Aufgabenfelder zu gewinnen. Die Projekte, die ich in diesem Portfolio präsentiere, spiegeln die Themen wider, für die ich mich aktuell besonders begeistere. Gleichzeitig bin ich offen dafür, neue Themenfelder zu entdecken, mehr über alltägliche Herausforderungen zu lernen und mich allgemein als Designer weiterzuentwickeln.</span></div>
+                </div>
+                <div class="skills">
+                    <div class="skills_01"><span class="skills_01_span">Skills</span></div>
+                    <div class="ensable-of-skills">
+                        <div class="figma">
+                            <img class="frame-23" src="./Figma.svg" alt="Figma" />
+                            <div class="figma_01"><span class="figma_01_span">Figma</span></div>
+                        </div>
+                        <div class="blender">
+                            <img class="frame-23" src="./Blender.svg" alt="Blender" />
+                            <div class="blender_01"><span class="blender_01_span">Blender</span></div>
+                        </div>
+                        <div class="photoshop">
+                            <img class="frame-23" src="./Photoshop.svg" alt="Photoshop" />
+                            <div class="photoshop_01"><span class="photoshop_01_span">Photoshop</span></div>
+                        </div>
+                        <div class="illustrator">
+                            <img class="frame-23" src="./Illustrator.svg" alt="Illustrator" />
+                            <div class="illustrator_01"><span class="illustrator_01_span">Illustrator</span></div>
+                        </div>
+                        <div class="after-effects">
+                            <img class="frame-23" src="./AfterEffects.svg" alt="After Effects" />
+                            <div class="after-effects_01"><span class="aftereffects_01_span">After Effects</span></div>
+                        </div>
+                        <div class="indesign_01">
+                            <img class="frame-23" src="./InDesign.svg" alt="InDesign" />
+                            <div class="indesign"><span class="indesign_span">Indesign</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <style>
+
 .bild-von-mir {
     width: 50%;
     height: 871px;
-    background: #C4C4C4;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .aboutme_span {
@@ -52,7 +56,6 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 32px;
-    word-wrap: break-word;
 }
 
 .about-me {
@@ -66,7 +69,6 @@
    font-family: var(--font-body);
     font-weight: 500;
     line-height: 36px;
-    word-wrap: break-word;
 }
 
 .ich-text {
@@ -81,12 +83,12 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 32px;
-    word-wrap: break-word;
 }
 
 .skills_01 {
     align-self: stretch;
     text-align: center;
+    padding-bottom: 24px;
 }
 
 .frame-23 {
@@ -101,18 +103,11 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
 }
 
 .figma_01 {
     align-self: stretch;
     text-align: center;
-}
-
-.frame-22 {
-    width: 82.52px;
-    height: 82.52px;
-    position: relative;
 }
 
 .blender_01_span {
@@ -121,18 +116,11 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
 }
 
 .blender_01 {
     width: 86.52px;
     text-align: center;
-}
-
-.frame-25 {
-    align-self: stretch;
-    height: 82.52px;
-    position: relative;
 }
 
 .photoshop_01_span {
@@ -141,18 +129,12 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
+
 }
 
 .photoshop_01 {
     align-self: stretch;
     text-align: center;
-}
-
-.frame-20 {
-    width: 86.50px;
-    height: 82.50px;
-    position: relative;
 }
 
 .illustrator_01_span {
@@ -161,18 +143,12 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
+
 }
 
 .illustrator_01 {
     align-self: stretch;
     text-align: center;
-}
-
-.frame-19 {
-    width: 82.52px;
-    height: 82.52px;
-    position: relative;
 }
 
 .aftereffects_01_span {
@@ -181,18 +157,12 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
+
 }
 
 .after-effects_01 {
     width: 86.52px;
     text-align: center;
-}
-
-.frame-21 {
-    align-self: stretch;
-    height: 82.52px;
-    position: relative;
 }
 
 .indesign_span {
@@ -201,7 +171,7 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 12px;
-    word-wrap: break-word;
+
 }
 
 .indesign {
@@ -298,6 +268,7 @@
     align-items: center;
     gap: 64px;
     display: inline-flex;
+    background: url("/static/Background.avif") center center / cover no-repeat;
 }
 
 .about-me-margin {

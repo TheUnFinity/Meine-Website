@@ -4,12 +4,12 @@
             <div class="wilkommen-ich-bin"><span class="wilkommenichbin_span">Wilkommen!  Ich bin</span></div>
             <div class="alexander-hoge">
                 <div class="alex-text"><span class="alextext_span">Ein Designstudent aus Münster, der es liebt, Kreativität in bedeutungsvolles Design zu verwandeln!</span></div>
-                <img src="./ALEXANDER HOGE.svg">
+                <img src="./ALEXANDER HOGE.svg" alt="Fetter Alexander Hoge Text">
             </div>
         </div>
-        <div class="frame-3">
-            <a href="#" class="contact"><span class="contact_span">Kontaktieren</span></a>
-        </div>
+        <a href="#kontakt" class="frame-3">
+            <div class="contact"><span class="contact_span">Kontaktieren</span></div>
+        </a>
     </div>
 </div>
 
@@ -20,7 +20,7 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 33px;
-    word-wrap: break-word;
+
 }
 
 .wilkommen-ich-bin {
@@ -34,7 +34,7 @@
     font-size: 24px;
    font-family: var(--font-body);
     font-weight: 600;
-    word-wrap: break-word;
+
 }
 
 .alex-text {
@@ -68,7 +68,7 @@
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 18px;
-    word-wrap: break-word;
+
 }
 
 .contact {
