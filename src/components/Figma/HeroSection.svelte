@@ -45,23 +45,6 @@
     position: absolute;
 }
 
-.lines-1 {
-    width: 1193px;
-    height: 335px;
-    left: -1.50px;
-    top: 2.50px;
-    position: absolute;
-}
-
-.vector {
-    width: 1193px;
-    height: 335px;
-    left: -1.50px;
-    top: 2.50px;
-    position: absolute;
-    background: #D9D9D9;
-}
-
 .contact_span {
     color: white;
     font-size: 18px;
@@ -82,8 +65,8 @@
     background: #2D2D2D;
     border-radius: 28.50px;
     justify-content: center;
+    gap: 10;
     align-items: center;
-    gap: 24.75px;
     display: inline-flex;
 }
 
@@ -100,11 +83,12 @@
     align-items: center;
     gap: 24px;
     display: flex;
+    padding: 48px;
 }
 
 .hero-section {
-    width: 1190px;
-    height: 492.75px;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

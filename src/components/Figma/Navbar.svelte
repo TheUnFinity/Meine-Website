@@ -75,7 +75,7 @@
 }
 
 .navigationsleiste {
-    width: 1339px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     display: inline-flex;
@@ -84,8 +84,7 @@
 .navi-margin {
     width: 100%;
     height: 100%;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 48px 48px 24px 48px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
