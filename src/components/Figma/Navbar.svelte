@@ -1,8 +1,8 @@
 <div class="navi-margin">
     <div class="navigationsleiste">
-        <div class="logo">
+        <a class="logo" href="#">
             <img class="logo-vector" src="./AlexLogo.svg" alt="Alex Logo"/>
-        </div>
+        </a>
         <div class="unterpunkte">
             <a href="#recent-work" class="work"><span class="work_span">Work</span></a>
             <a href="#about-me" class="about-me"><span class="aboutme_span">About Me</span></a>
