@@ -1,10 +1,12 @@
 <div class="hero-margin">
     <div class="hero-section">
         <div class="mit-willkomen">
-            <div class="wilkommen-ich-bin"><span class="wilkommenichbin_span">Wilkommen!  Ich bin</span></div>
+            <div class="wilkommen-ich-bin">
+                <span class="wilkommenichbin_span">Wilkommen!  Ich bin</span>
+            </div>
             <div class="alexander-hoge">
-                <div class="alex-text"><span class="alextext_span">Ein Designstudent aus Münster, der es liebt, Kreativität in bedeutungsvolles Design zu verwandeln!</span></div>
-                <img src="./ALEXANDER HOGE.svg" alt="Fetter Alexander Hoge Text">
+                <img class="logo-big" src="./HeroDesktop.svg" alt="Fetter Alexander Hoge Text">
+                <img class="logo-small" src="./HeroMobile.svg" alt="Fetter Alexander Hoge Text">
             </div>
         </div>
         <a href="#kontakt" class="frame-3">
@@ -16,42 +18,19 @@
 <style>
 .wilkommenichbin_span {
     color: black;
-    font-size: 24px;
-   font-family: var(--font-body);
-    font-weight: 600;
-    line-height: 33px;
-
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .wilkommen-ich-bin {
     align-self: stretch;
-    height: 32px;
     text-align: center;
 }
 
-.alextext_span {
-    color: black;
-    font-size: 24px;
-   font-family: var(--font-body);
-    font-weight: 600;
-
-}
-
-.alex-text {
-    width: 490px;
-    height: 93px;
-    left: 663px;
-    top: 204px;
-    position: absolute;
-}
-
 .contact_span {
-    color: white;
-    font-size: 18px;
-   font-family: var(--font-body);
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
     line-height: 18px;
-
 }
 
 .contact {
@@ -59,20 +38,16 @@
 }
 
 .frame-3 {
-    width: 151.50px;
-    height: 42.75px;
-    padding: 22.50px;
+    width: 110px;
+    height: 30px;
     background: #2D2D2D;
     border-radius: 28.50px;
     justify-content: center;
-    gap: 10;
     align-items: center;
-    display: inline-flex;
+    display: flex;
 }
 
 .alexander-hoge {
-    width: 1190px;
-    height: 330px;
     position: relative;
 }
 
@@ -83,7 +58,7 @@
     align-items: center;
     gap: 24px;
     display: flex;
-    padding: 48px;
+    padding: 24px;
 }
 
 .hero-section {
@@ -98,11 +73,47 @@
 .hero-margin {
     width: 100%;
     height: 100%;
-    padding-bottom: 128px;
+    padding-bottom: 48px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     display: inline-flex;
 }
+
+.logo-big {
+    display: none;
+}
+
+@media (min-width: 768px) {
+  .logo-big {
+    display: flex;
+  }
+  .logo-small {
+    display: none;
+  }
+
+  .hero-margin {
+    padding-bottom: 128px;
+  }
+
+  .mit-willkomen {
+    padding: 48px;
+  }
+
+  .wilkommenichbin_span {
+    font-size: 24px;
+  }
+
+  .contact_span {
+    font-size: 18px;
+  }
+
+.frame-3 {
+    width: 150px;
+    height: 40px;
+}
+
+}
+
 </style>
