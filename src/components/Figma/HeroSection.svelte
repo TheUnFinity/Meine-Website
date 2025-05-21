@@ -45,6 +45,8 @@
 
 .logo {
     padding-bottom: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
   .logo-small {

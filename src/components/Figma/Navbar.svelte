@@ -14,7 +14,6 @@
     padding: 48px 48px 64px 48px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -68,7 +67,7 @@
     .navbar {
     align-items: center;
     justify-content: center;
-    padding: 32px;
+    padding: 24px;
   }
 }
 

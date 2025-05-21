@@ -159,7 +159,7 @@
 
     .content {
         width: 100%;
-        padding: 0 32px;
+        padding: 0 24px;
     }
 
   .skills-list {

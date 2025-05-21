@@ -1,7 +1,7 @@
 <section id="kontakt">
     <div class="kontakt-all">
         <div class="kontakt-links">
-            <div class="kontakt"><span class="kontakt_span">Kontakt</span></div>
+            <span class="kontakt-span">Kontakt</span>
             <div class="links">
                 <a class="frame" href="mailto:alexander@hoge-design.com" target="_blank">
                     <div class="left-right">
@@ -41,18 +41,21 @@
 </section>
 
 <style>
-.kontakt_span {
+#kontakt {
+    background: linear-gradient(105deg, rgb(75, 75, 75) 0%, rgb(8, 8, 8) 75%);
+    display: flex;
+    justify-content: center;
+}
+
+.kontakt-span {
     color: white;
     font-size: 32px;
    font-family: var(--font-body);
     font-weight: 600;
     line-height: 32px;
-
-}
-
-.kontakt {
     text-align: center;
     padding-bottom: 24px;
+
 }
 
 .arrow {
@@ -137,26 +140,30 @@
     gap: 24px;
     display: flex;
     padding-bottom: 48px;
+    justify-content: center;
 }
  
 .kontakt-links {
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .kontakt-all {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
-    padding: 48px;
-    background: linear-gradient(105deg, rgb(75, 75, 75) 0%, rgb(8, 8, 8) 75%);
+    justify-items: center;
+    padding: 48px 24px;
+    max-width: 83rem;
 }
 
   @media (max-width: 768px) {
-    .kontakt_span {
+    .kontakt-all {
+        padding: 48px 24px;
+    }
+    .kontakt-span {
         font-size: 24px;
     }
 
