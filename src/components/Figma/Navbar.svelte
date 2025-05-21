@@ -1,17 +1,17 @@
 <nav class="navbar">
 <a class="logo" href="/">
-    <img src="./AlexLogo.svg" alt="Alex Logo" />
+    <img src="/AlexLogo.svg" alt="Alex Logo" />
 </a>
 <div class="nav-links">
-    <a class="nav-link" href="#recent-work">Meine Projekte</a>
-    <a class="nav-link" href="#about-me">Über mich</a>
-    <a class="nav-link" href="#kontakt">Kontakt</a>
+    <a class="nav-link" href="/#recent-work">Meine Projekte</a>
+    <a class="nav-link" href="/#about-me">Über mich</a>
+    <a class="nav-link" href="/#kontakt">Kontakt</a>
 </div>
 </nav>
 
 <style>
 .navbar {
-    padding: 48px 48px 24px 48px;
+    padding: 48px 48px 64px 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +41,7 @@
 @media (max-width: 768px) {
 
   .navbar {
-    padding: 24px;
+    padding: 24px 24px 48px 24px;
   }
 
   .nav-links {

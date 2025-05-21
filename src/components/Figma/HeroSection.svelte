@@ -1,45 +1,30 @@
-<div class="hero-margin">
-    <div class="hero-section">
-        <div class="mit-willkomen">
-            <div class="wilkommen-ich-bin">
-                <span class="wilkommenichbin_span">Wilkommen!  Ich bin</span>
-            </div>
-            <div class="alexander-hoge">
-                <img class="logo-big" src="./HeroDesktop.svg" alt="Fetter Alexander Hoge Text">
-                <img class="logo-small" src="./HeroMobile.svg" alt="Fetter Alexander Hoge Text">
-            </div>
-        </div>
-        <a href="#kontakt" class="frame-3">
-            <div class="contact"><span class="contact_span">Kontaktieren</span></div>
-        </a>
+<div class="hero-section">
+    <span class="wilkommen-ich-bin">Wilkommen!  Ich bin</span>
+    <div class="logo">
+        <img class="logo-big" src="/HeroDesktop.svg" alt="Fetter Alexander Hoge Text">
+        <img class="logo-small" src="/HeroMobile.svg" alt="Fetter Alexander Hoge Text">
     </div>
+    <a href="#kontakt" class="kontaktieren-button">
+        <span class="kontaktieren">Kontaktieren</span>
+    </a>
 </div>
 
 <style>
-.wilkommenichbin_span {
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-}
-
 .wilkommen-ich-bin {
-    align-self: stretch;
-    text-align: center;
-}
-
-.contact_span {
-    font-size: 12px;
+    color: black;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 18px;
+    padding-bottom: 24px;
 }
 
-.contact {
-    text-align: center;
+.kontaktieren {
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.frame-3 {
-    width: 110px;
-    height: 30px;
+.kontaktieren-button {
+    width: 150px;
+    height: 40px;
     background: #2D2D2D;
     border-radius: 28.50px;
     justify-content: center;
@@ -47,72 +32,55 @@
     display: flex;
 }
 
-.alexander-hoge {
-    position: relative;
-}
-
-.mit-willkomen {
-    align-self: stretch;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 24px;
-    display: flex;
-    padding: 24px;
-}
-
 .hero-section {
     width: 100%;
     height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     display: flex;
-}
-
-.hero-margin {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 48px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    display: inline-flex;
+    padding-bottom: 128px;
 }
 
-.logo-big {
-    display: none;
+.logo {
+    padding-bottom: 64px;
 }
 
-@media (min-width: 768px) {
-  .logo-big {
-    display: flex;
-  }
   .logo-small {
     display: none;
   }
 
-  .hero-margin {
-    padding-bottom: 128px;
+@media (max-width: 767px) {
+
+    .hero-section {
+        padding-bottom: 24px;
+    }
+
+  .logo-small {
+    display: flex;
+  }
+  .logo-big{
+    display: none;
   }
 
-  .mit-willkomen {
-    padding: 48px;
+  .logo {
+    padding-bottom: 12px;
   }
 
-  .wilkommenichbin_span {
-    font-size: 24px;
+  .wilkommen-ich-bin {
+    font-size: 14px;
+    padding-bottom: 12px;
   }
 
-  .contact_span {
-    font-size: 18px;
+  .kontaktieren {
+    font-size: 12px;
   }
 
-.frame-3 {
-    width: 150px;
-    height: 40px;
-}
+  .kontaktieren-button {
+    width: 110px;
+    height: 30px;
+  }
 
 }
 

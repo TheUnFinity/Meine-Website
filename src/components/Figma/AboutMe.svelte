@@ -1,7 +1,7 @@
 <section id="about-me">
   <div class="about-me-all">
     <div class="image-div">
-    <img class="bild-von-mir" src="./BildVonMir.avif" alt="Alex" />
+    <img class="bild-von-mir" src="/BildVonMir.avif" alt="Alex" />
     </div>
     <div class="content">
         <span class="aboutme-header">Über mich</span>
@@ -12,27 +12,27 @@
         <span class="skills-span">Skills</span>
         <div class="skills-list">
           <div class="icon">
-            <img class="icon-img" src="./Figma.svg" alt="Figma" />
+            <img class="icon-img" src="/Figma.svg" alt="Figma" />
             <span class="icon-span">Figma</span>
           </div>
           <div class="icon">
-            <img class="icon-img" src="./Blender.svg" alt="Blender" />
+            <img class="icon-img" src="/Blender.svg" alt="Blender" />
             <span class="icon-span">Blender</span>
           </div>
           <div class="icon">
-            <img class="icon-img" src="./Photoshop.svg" alt="Photoshop" />
+            <img class="icon-img" src="/Photoshop.svg" alt="Photoshop" />
             <span class="icon-span">Photoshop</span>
           </div>
           <div class="icon">
-            <img class="icon-img" src="./Illustrator.svg" alt="Illustrator" />
+            <img class="icon-img" src="/Illustrator.svg" alt="Illustrator" />
             <span class="icon-span">Illustrator</span>
           </div>
           <div class="icon">
-            <img class="icon-img" src="./AfterEffects.svg" alt="After Effects" />
+            <img class="icon-img" src="/AfterEffects.svg" alt="After Effects" />
             <span class="icon-span">After Effects</span>
           </div>
           <div class="icon">
-            <img class="icon-img" src="./InDesign.svg" alt="InDesign" />
+            <img class="icon-img" src="/InDesign.svg" alt="InDesign" />
             <span class="icon-span">InDesign</span>
           </div>
         </div>

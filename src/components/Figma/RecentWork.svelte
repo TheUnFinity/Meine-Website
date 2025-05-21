@@ -5,7 +5,7 @@
       <div class="projects-overview">
         <div class="project">
           <a class="project-link" href="https://www.behance.net/gallery/224784231/Field-and-Flake-Packaging-Design-3D">
-            <img class="project-image" src="./FieldAndFlake.avif" alt="FieldAndFlakes" />
+            <img class="project-image" src="/FieldAndFlake.avif" alt="FieldAndFlakes" />
           </a>
           <div class="project-title">
             <span class="project-title-main">Field and Flake</span>
@@ -16,7 +16,7 @@
         <div class="project-row">
           <div class="project">
             <a class="project-link" href="https://www.behance.net/gallery/224783343/3D-Wallpapers-3D">
-              <img class="project-image" src="./3DWallpaper.avif" alt="Wallpapers" />
+              <img class="project-image" src="/3DWallpaper.avif" alt="Wallpapers" />
             </a>
             <div class="project-title">
               <span class="project-title-main">3D Wallpapers</span>
@@ -26,7 +26,7 @@
 
           <div class="project">
             <a class="project-link" href="https://www.behance.net/gallery/224783855/Website-for-Marcel-Kazemi-Website">
-              <img class="project-image" src="./MarcelWebseite.avif" alt="Marcel K. Webseite" />
+              <img class="project-image" src="/MarcelWebseite.avif" alt="Marcel K. Webseite" />
             </a>
             <div class="project-title">
               <span class="project-title-main">Webseite für Marcel Kazemi</span>
@@ -38,7 +38,7 @@
         <div class="project-row">
           <div class="project">
             <a class="project-link" href="https://www.behance.net/gallery/224781917/Lockify-Landingpage-3D">
-              <img class="project-image" src="./Lockify.avif" alt="Lockify" />
+              <img class="project-image" src="/Lockify.avif" alt="Lockify" />
             </a>
             <div class="project-title">
               <span class="project-title-main">Lockify</span>
@@ -48,7 +48,7 @@
 
           <div class="project">
             <a class="project-link" href="https://www.behance.net/gallery/224780767/Equi-Org-App-Design">
-              <img class="project-image" src="./HippoFun.avif" alt="Hippo Fun" />
+              <img class="project-image" src="/HippoFun.avif" alt="Hippo Fun" />
             </a>
             <div class="project-title">
               <span class="project-title-main">Equi Org</span>

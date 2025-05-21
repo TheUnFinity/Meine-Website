@@ -6,35 +6,35 @@
                 <a class="frame" href="mailto:alexander@hoge-design.com" target="_blank">
                     <div class="left-right">
                         <div class="link-text">Email</div>
-                        <img class="arrow" src="./Arrow.svg" alt="Arrow"/>
+                        <img class="arrow" src="/Arrow.svg" alt="Arrow"/>
                     </div>
-                    <img class="stroke" src="./Stroke.svg" alt="Stoke"/>
+                    <img class="stroke" src="/Stroke.svg" alt="Stoke"/>
                 </a>
                 <a class="frame" a href="https://www.instagram.com/alexander.hoge/" target="_blank">
                     <div class="left-right">
                         <div class="link-text">Instagram</div>
-                        <img class="arrow" src="./Arrow.svg" alt="Arrow"/>
+                        <img class="arrow" src="/Arrow.svg" alt="Arrow"/>
                     </div>
-                    <img class="stroke" src="./Stroke.svg" alt="Stoke"/>
+                    <img class="stroke" src="/Stroke.svg" alt="Stoke"/>
                 </a>
                 <a class="frame" href="https://www.linkedin.com/in/alexander-hoge/" target="_blank">
                     <div class="left-right">
                         <div class="link-text">Behance</div>
-                        <img class="arrow" src="./Arrow.svg" alt="Arrow"/>
+                        <img class="arrow" src="/Arrow.svg" alt="Arrow"/>
                     </div>
-                    <img class="stroke" src="./Stroke.svg" alt="Stoke"/>
+                    <img class="stroke" src="/Stroke.svg" alt="Stoke"/>
                 </a>
                 <a class="frame" href="https://www.linkedin.com/in/alexander-hoge-247609364/" target="_blank">
                     <div class="left-right">
                         <div class="link-text">LinkedIn</div>
-                        <img class="arrow" src="./Arrow.svg" alt="Arrow"/>
+                        <img class="arrow" src="/Arrow.svg" alt="Arrow"/>
                     </div>
-                    <img class="stroke" src="./Stroke.svg" alt="Stoke"/>
+                    <img class="stroke" src="/Stroke.svg" alt="Stoke"/>
                 </a>
             </div>
         </div>
         <div class="impressum-und-co">
-            <div class="impressum"><a href="#" class="impressum_span">Impressum</a></div>
+            <div class="impressum"><a href="/impressum" class="impressum_span">Impressum</a></div>
             <div class="datenschutzerklrung"><a href="#" class="datenschutzerklrung_span">Datenschutzerklärung</a></div>
         </div>
     </div>
@@ -158,12 +158,10 @@
   @media (max-width: 768px) {
     .kontakt_span {
         font-size: 24px;
-        line-height: 24px;
     }
 
     .link-text {
         font-size: 16px;
-        line-height: 16px;
     }
 }
 

@@ -1,5 +1,7 @@
 <script>
     import '../app.css';
+    import Navbar from '$components/Figma/Navbar.svelte';
+    import Contact from '$components/Figma/Contact.svelte';
 
     let { children } = $props();
 
@@ -7,9 +9,13 @@
 
 <div class="app">
 
+    <Navbar />
+
     <main>
         {@render children()}
     </main>
+
+    <Contact />
 
 </div>
 
